@@ -1,7 +1,7 @@
 # Hospital-Management-System
 This project named Hospital Management System has been developed using Python & MySql(Xampp)
-To run this project you need to install python and xampp.
-You also need to install package mysql.connector inorder to connect python with xampp.
+To run this project you need to install python and Mysqlworkbench.
+You also need to install package mysql.connector inorder to connect python with Mysql.
 After installing the package you need to create a table for all the fields mentioned in the interface.
 After completing the above process you can run the project.
 There are some buttons in the below frame named:-
