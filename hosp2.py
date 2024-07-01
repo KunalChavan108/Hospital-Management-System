@@ -221,7 +221,7 @@ class Hospital:
         if self.Nameoftablets.get() == "" or self.ref.get() == "":
             messagebox.showerror("Error!", "All fields are required")
         else:
-            conn = mysql.connector.connect(host="localhost", user="root", password="", database="app")
+            conn = mysql.connector.connect(host="localhost", user="root", password="Oneeyedeagle@21", database="mydata")
             my_cursor = conn.cursor()
             my_cursor.execute("insert into hospital values(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s,%s)", (
                                                                                                                 self.Nameoftablets.get(),
@@ -251,7 +251,7 @@ class Hospital:
         if self.ref.get() == "":
             messagebox.showerror("Error", "Reference Number is required for updating")
         else:
-            conn = mysql.connector.connect(host="localhost", user="root", password="", database="app")
+            conn = mysql.connector.connect(host="localhost", user="root", password="Oneeyedeagle@21", database="mydata")
         my_cursor = conn.cursor()
         
         sql_update_query = """UPDATE hospital SET 
@@ -296,7 +296,7 @@ class Hospital:
 
     
     def fetch_data(self):
-        conn = mysql.connector.connect(host="localhost", user="root", password="", database="app")
+        conn = mysql.connector.connect(host="localhost", user="root", password="Oneeyedeagle@21", database="mydata")
         my_cursor = conn.cursor()
         my_cursor.execute("SELECT * FROM hospital")
         rows = my_cursor.fetchall()
@@ -349,7 +349,7 @@ class Hospital:
         self.txtPrescription.insert(END,"Patient Address:\t\t\t"+self.PatientAddress.get()+"\n")
     
     def idelete(self):
-        conn = mysql.connector.connect(host="localhost", user="root", password="", database="app")
+        conn = mysql.connector.connect(host="localhost", user="root", password="Oneeyedeagle@21", database="mydata")
         my_cursor = conn.cursor()
         query="DELETE FROM hospital where Refernce_No=%s"
         value=(self.ref.get(),)
