@@ -146,22 +146,22 @@ class Hospital:
         self.txtPrescription.grid(row=0, column=0)
 
         #====================Buttons====================================
-        btnPresciption = Button(Buttonframe, command=self.iPrescription, text="Presciption", bg="blue", fg="white", font=("arial", 12, "bold"), width=23, padx=2, pady=6)
+        btnPresciption = Button(Buttonframe, command=self.iPrescription, text="Presciption", bg="green", fg="white", font=("arial", 12, "bold"), width=23, padx=2, pady=6)
         btnPresciption.grid(row=0, column=0)
 
-        btnPresciptionData = Button(Buttonframe, command=self.iPrescriptionData,text="Presciption Data", bg="blue", fg="white", font=("arial", 12, "bold"), width=25, padx=2, pady=6, )
+        btnPresciptionData = Button(Buttonframe, command=self.iPrescriptionData,text="Presciption Data", bg="green", fg="white", font=("arial", 12, "bold"), width=25, padx=2, pady=6, )
         btnPresciptionData.grid(row=0, column=1)
 
-        btnUpdate = Button(Buttonframe,command=self.update_data,text="Update", bg="blue", fg="white", font=("arial", 12, "bold"), width=23, padx=2, pady=6)
+        btnUpdate = Button(Buttonframe,command=self.update_data,text="Update", bg="green", fg="white", font=("arial", 12, "bold"), width=23, padx=2, pady=6)
         btnUpdate.grid(row=0, column=2)
 
-        btnDelete = Button(Buttonframe,command=self.idelete, text="Delete", bg="blue", fg="white", font=("arial", 12, "bold"), width=23, padx=2, pady=6)
+        btnDelete = Button(Buttonframe,command=self.idelete, text="Delete", bg="green", fg="white", font=("arial", 12, "bold"), width=23, padx=2, pady=6)
         btnDelete.grid(row=0, column=3)
 
-        btnClear = Button(Buttonframe,command=self.clear, text="Clear", bg="blue", fg="white", font=("arial", 12, "bold"), width=23, padx=2, pady=6)
+        btnClear = Button(Buttonframe,command=self.clear, text="Clear", bg="green", fg="white", font=("arial", 12, "bold"), width=23, padx=2, pady=6)
         btnClear.grid(row=0, column=4)
 
-        btnExit = Button(Buttonframe,command=self.iExit,text="Exit", bg="blue", fg="white", font=("arial", 12, "bold"), width=24, padx=2, pady=6)
+        btnExit = Button(Buttonframe,command=self.iExit,text="Exit", bg="green", fg="white", font=("arial", 12, "bold"), width=24, padx=2, pady=6)
         btnExit.grid(row=0, column=5)
 
         #========================Table============================
