@@ -14,5 +14,3 @@ This is a Hospital Management System built using **Python** and **MySQL**. It pr
 - Tkinter for GUI
 - mysql-connector-python
 
-## 📦 Project Files
-
